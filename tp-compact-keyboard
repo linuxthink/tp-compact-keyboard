@@ -14,17 +14,17 @@ Usage: tp-compact-keyboard [OPTION...]
 --fn-lock-enable
     Enable "fn key lock". The function keys will send the F keycodes (IE F1,
     F2, etc).
-    
+
 --native-fn-enable
     By default, F7/F9/F11 generate a string of keypresses that might be
     useful under windows. This stops this, and instead only generates
     custom events.
-    
+
 --native-mouse-enable
     The middle button generates 2 events by default, but Linux only
     understands one of them. This disables the event that Linux does
     understand, leaving you with no middle button.
-    
+
 --native-mouse-disable
     Restore middle button to a working state.
 
